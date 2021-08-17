@@ -8,5 +8,6 @@ public class Main {
         JOptionPane.showMessageDialog(null, "Hello world!");
         JOptionPane.showMessageDialog(null, "Nova mensagem!!");
         JOptionPane.showMessageDialog(null, "Mensagem para alunos");
+        System.out.println("Hello World!");
     }    
 }
