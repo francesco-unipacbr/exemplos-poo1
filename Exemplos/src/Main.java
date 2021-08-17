@@ -8,6 +8,7 @@ public class Main {
         JOptionPane.showMessageDialog(null, "Hello world!");
         JOptionPane.showMessageDialog(null, "Nova mensagem!!");
         System.out.println("Hello world de novo");
+        int y = 5;
         int x = 10;
         System.out.println("O valor de x é: " + x);
     }    
