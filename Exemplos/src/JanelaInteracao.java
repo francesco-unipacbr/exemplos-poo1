@@ -28,5 +28,27 @@ public class JanelaInteracao {
         int dobroValor = dobro(valor);
         JOptionPane.showMessageDialog(null, "O dobro de " + valor + " é " + dobroValor);
         
+      
+        /*Janela de confirmação
+        Retornos:
+        -1 = Quando clica no X
+        0 = Sim
+        1 = Não
+        2 = Cancelar
+        */
+        int opcao = JOptionPane.showConfirmDialog(null, "Você quer ser rico?");
+        System.out.println("Opcao escolhida: " + opcao);
+        switch(opcao) {
+            case 0: JOptionPane.showMessageDialog(null, "Parabéns, você ganhou R$100.000,00! Agora você é rico.", "RICO!", JOptionPane.WARNING_MESSAGE);
+            break;
+            case 1: JOptionPane.showMessageDialog(null, "Parabéns, você ganhou R$1,00", "POBRE!", JOptionPane.ERROR_MESSAGE);
+            break;
+            case 2: JOptionPane.showMessageDialog(null, "Você cancelou");
+            break;
+            case -1: JOptionPane.showMessageDialog(null, "Você fechou a janela");
+        }
+        
+        
+        
     }
 }
