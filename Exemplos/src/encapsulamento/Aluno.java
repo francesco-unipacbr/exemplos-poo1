@@ -27,7 +27,7 @@ public class Aluno {
             notas[i] += pontoExtra; //cada nota do aluno vai receber o que já existe + o ponto extra
         }
     }
-
+    
     public String getNome() {
         return nome;
     }

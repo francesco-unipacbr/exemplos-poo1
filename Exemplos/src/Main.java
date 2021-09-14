@@ -1,3 +1,4 @@
+import construtorHeranca.Pessoa;
 import javax.swing.*;
 /**
  *

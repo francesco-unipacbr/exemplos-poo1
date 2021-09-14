@@ -42,7 +42,6 @@ public class Main {
         //Acessar o endereço do aluno e atribuir o número
         a.getEndereco().setNumero(60);
         System.out.println(a.getEndereco().getNumero());
-
     }
 
 }
